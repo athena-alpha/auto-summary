@@ -23,7 +23,7 @@ Here is an example of it summarizing this 1.5 hour long [YouTube Podcast](https:
 
 4. In a terminal, download Auto Summary to your system and give it execution permission
 
-```bash
+```shell
 gh repo clone athena-alpha/auto-summary
 cd auto-summary && chmod +x auto-summary.sh
 ```
@@ -31,17 +31,17 @@ cd auto-summary && chmod +x auto-summary.sh
 5. Run the Auto Summary script:
 
 YouTube Summary Example:
-```bash
+```shell
 ./auto-summary.sh https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
 Local PDF Example:
-```bash
+```shell
 ./auto-summary.sh highly_technical_scientific_paper.pdf
 ```
 
 Local Audio/Video Example:
-```bash
+```shell
 ./auto-summary.sh highly_questionable_video_file.mp4
 ```
 
