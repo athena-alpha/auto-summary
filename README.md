@@ -11,9 +11,9 @@ Here is an example of it summarizing this 1.5 hour long [YouTube Podcast](https:
 **Ubuntu:** As of now, the bash script only works on Ubuntu. While there's no reason why it couldn't be adapted to run on Windows, macOS etc, we'll leave that to others.
 
 ## INSTALLATION & RUNNING
-1. Download and install [LM Studio](https://lmstudio.ai/) (Auto Summary relies on open source Large Language Model (LLM) to do the summarizing)
+1. Download and install [LM Studio](https://lmstudio.ai/) (Auto Summary relies on open source LLMs to do the summarizing)
 
-2. Open LM Studio and download any appropriate LLM that works for your machine. **Search -> "Mistral" -> Download**
+2. In LM Studio download any appropriate LLM that works for your machine (**Search -> "Mistral" -> Download**)
 
 ![image](https://github.com/athena-alpha/auto-summary/assets/97640728/8f2e6b59-40f7-4659-9425-7be409ce9a88)
 
