@@ -13,7 +13,7 @@ Here is an example of it summarizing this 1.5 hour long [YouTube Podcast](https:
 ## INSTALLATION & RUNNING
 1. Download and install [LM Studio](https://lmstudio.ai/) (Auto Summary relies on open source LLMs to do the summarizing)
 
-2. In LM Studio download any appropriate LLM that works for your machine (**Search -> "Mistral" -> Download**)
+2. In LM Studio download any LLM that works for your machine (**Search -> "Mistral" -> Download**)
 
 ![image](https://github.com/athena-alpha/auto-summary/assets/97640728/8f2e6b59-40f7-4659-9425-7be409ce9a88)
 
@@ -45,7 +45,7 @@ Local Audio/Video Example:
 ./auto-summary.sh highly_questionable_video_file.mp4
 ```
 
-Auto Summary will automatically detect and install a few required programs on its first run, so you don't need to  including:
+Auto Summary will automatically detect and install a few required programs on its first run including:
 - **[yt-dlp](https://github.com/yt-dlp/yt-dlp):** Used to download and extract YouTube audio
 - **[Whisper](https://github.com/openai/whisper):** Used to transacribe audio or video to text
 - **[jq](https://jqlang.github.io/jq/):** Uused to process the API JSON replies
